@@ -117,7 +117,7 @@ if (isBrowser()) {
     // calls init function
     sparksPopup.init();
     
-     if (document.cookie.indexOf('MS_USER_COOKIE') > -1) {
+     if (document.cookie.indexOf('MS_USER_COOKIE') >= -1) {
     	
         // myPopup exists - ended
         if (window.sessionStorage.getItem('myPopup')) return true
