@@ -144,8 +144,8 @@ if (isBrowser()) {
 	})
 	
 	
-	window.onclick = function(event) {
-	  if (!event.target.closest('.promo__tile')) {
+	window.onclick = function(event) { // outside of box
+	  if (!event.target.closest('.hero-carousel')) {//pick a
 	    closePopup.style.display = "none";
 	  }
 	}
