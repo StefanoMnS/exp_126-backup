@@ -154,7 +154,9 @@ if (isBrowser()) {
 
 	
     
-    
+   /*
+     missing timeout for delay page entry
+   */ 
     
     
   }); // load event
